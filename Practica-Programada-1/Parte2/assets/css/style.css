@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman';
+    background-color: #ffffff;
+    margin: 0;
+    color: #000000;
+}
+
+/* Barra de navegación */
+.Navegación {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2999e9;
+    padding: 10px 40px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 120px;
+}
+
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #d3fc61;
+}
+
+/* Sección de perfil */
+.perfil-doctor {
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    padding: 50px 5%;
+}
+
+.info-doctor {
+    background-color: #dffafe;
+    border: 1px solid #91c8ff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    max-width: 500px;
+}
+
+.nombre-doctor {
+    text-align: center;
+    color: #067bcf;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.especialidad {
+    text-align: center;
+    color: #4a8dcf;
+    margin-bottom: 15px;
+}
+
+#descripcion {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.btn-cita {
+    background-color: #2999e9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-cita:hover {
+    background-color: #095a91;
+}
+
+/* Comentarios */
+.comentarios {
+    text-align: center;
+    padding: 40px 10%;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid #91c8ff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+}
