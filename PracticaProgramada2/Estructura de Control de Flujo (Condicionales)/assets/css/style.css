@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Times New Roman";
+    background-color: #d25454;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #2fd185; 
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+.Estudiantes {
+    display: block;
+    margin: 50px auto;
+    width: 80%;
+    background-color: #ffffff;
+    border: 2px solid #47cf44;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.Titulo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #198754;
+    margin-bottom: 20px;
+}
+
+#estudianteEdad {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#btnEdad {
+    background-color: #198754;
+    color: white;
+    font-weight: 500;
+    border: none;
+    transition: 0.3s;
+}
+
+#btnEdad:hover {
+    background-color: #66edac;
+    transform: scale(1.05);
+}
+
+#resultadoEvaluado {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+}
+

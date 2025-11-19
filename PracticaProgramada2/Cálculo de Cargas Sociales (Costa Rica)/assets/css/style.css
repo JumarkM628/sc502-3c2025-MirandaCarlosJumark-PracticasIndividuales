@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Times New Roman";
+    background-color: #d25454;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #2991db;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.Calculo {
+    display: block;
+    margin: 50px auto;
+    width: 80%;
+    background-color: #452b93;
+    border: 2px solid #5991c9;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.TituloCargas {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#resultadoCargas,
+#resultadoRenta,
+#resultadoNeto {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #e6f4ff;
+    border: 1px solid #91c8ff;
+    border-radius: 5px;
+    color: #000;
+}
+
